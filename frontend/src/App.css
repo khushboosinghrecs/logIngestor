@@ -1,0 +1,75 @@
+/* Add your existing styles or reset styles as needed */
+/* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+/* Style for the container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Style for the form container on the left */
+.logForm {
+  width: 45%;
+  pad: 15px;
+}
+
+/* Style for the form elements */
+.logForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.logForm div {
+  margin-bottom: 15px;
+}
+
+.logForm label {
+  margin-bottom: 5px;
+}
+
+.logForm input {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logForm button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+/* Style for the search results container on the right */
+.searchResults {
+  padding: 15px;
+  background-color: black;
+  width: 50%;
+}
+
+/* Style for the search results list */
+.searchResults ul {
+  list-style: none;
+  padding: 0;
+}
+
+.searchResults li {
+  margin-bottom: 15px;
+}
+
+/* Style for the JSON result */
+.searchResults pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
